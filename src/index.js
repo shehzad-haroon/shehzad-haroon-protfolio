@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import RubberBand from 'react-reveal/RubberBand';
 ReactDOM.render(
   <React.StrictMode>
+            <RubberBand>
     <App />
+    </RubberBand>
   </React.StrictMode>,
   document.getElementById('root')
 );
